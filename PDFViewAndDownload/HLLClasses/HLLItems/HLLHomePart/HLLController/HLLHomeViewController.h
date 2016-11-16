@@ -6,6 +6,10 @@
 //  Copyright © 2016年 Jeffrey hu. All rights reserved.
 //
 
+/**
+ *  首页展示
+ */
+
 #import "BaseViewController.h"
 
 @interface HLLHomeViewController : BaseViewController

@@ -13,3 +13,13 @@
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
 #endif /* Config_pch */
+
+#ifdef __OBJC__
+
+#define MAS_SHORTHAND
+#import <Masonry.h>
+
+#endif
+
+#define PDF_URL @"https://www.tutorialspoint.com/ios/ios_tutorial.pdf"
+#define PDF_FILE_PATH [[NSBundle mainBundle] pathForResource:@"git-cheatsheet" ofType:@"pdf"]
