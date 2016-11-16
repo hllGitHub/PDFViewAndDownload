@@ -1,0 +1,15 @@
+//
+//  Config.pch
+//  PDFViewAndDownload
+//
+//  Created by Jeffrey hu on 16/11/16.
+//  Copyright © 2016年 Jeffrey hu. All rights reserved.
+//
+
+#ifndef Config_pch
+#define Config_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* Config_pch */

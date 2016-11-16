@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		0045188D1DDC01C900882606 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0045188C1DDC01C900882606 /* main.m */; };
-		004518901DDC01C900882606 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0045188F1DDC01C900882606 /* AppDelegate.m */; };
-		004518931DDC01C900882606 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 004518921DDC01C900882606 /* ViewController.m */; };
 		004518961DDC01C900882606 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 004518941DDC01C900882606 /* Main.storyboard */; };
 		004518981DDC01C900882606 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 004518971DDC01C900882606 /* Assets.xcassets */; };
 		0045189B1DDC01C900882606 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 004518991DDC01C900882606 /* LaunchScreen.storyboard */; };
 		004518A61DDC01C900882606 /* PDFViewAndDownloadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 004518A51DDC01C900882606 /* PDFViewAndDownloadTests.m */; };
 		004518B11DDC01CA00882606 /* PDFViewAndDownloadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 004518B01DDC01CA00882606 /* PDFViewAndDownloadUITests.m */; };
+		004518CC1DDC04FC00882606 /* HLLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 004518CB1DDC04FC00882606 /* HLLAppDelegate.m */; };
+		004518D01DDC05A000882606 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 004518CF1DDC05A000882606 /* BaseViewController.m */; };
+		004518D91DDC064600882606 /* HLLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 004518D81DDC064600882606 /* HLLHomeViewController.m */; };
+		AAD9532BD391480392612CEE /* libPods-PDFViewAndDownload.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1916837CA069ACC059A13F98 /* libPods-PDFViewAndDownload.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +39,6 @@
 /* Begin PBXFileReference section */
 		004518881DDC01C900882606 /* PDFViewAndDownload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFViewAndDownload.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0045188C1DDC01C900882606 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0045188E1DDC01C900882606 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0045188F1DDC01C900882606 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		004518911DDC01C900882606 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		004518921DDC01C900882606 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		004518951DDC01C900882606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		004518971DDC01C900882606 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0045189A1DDC01C900882606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +49,16 @@
 		004518AC1DDC01CA00882606 /* PDFViewAndDownloadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDFViewAndDownloadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		004518B01DDC01CA00882606 /* PDFViewAndDownloadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFViewAndDownloadUITests.m; sourceTree = "<group>"; };
 		004518B21DDC01CA00882606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		004518CA1DDC04FC00882606 /* HLLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLAppDelegate.h; sourceTree = "<group>"; };
+		004518CB1DDC04FC00882606 /* HLLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLAppDelegate.m; sourceTree = "<group>"; };
+		004518CE1DDC05A000882606 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		004518CF1DDC05A000882606 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		004518D71DDC064600882606 /* HLLHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLHomeViewController.h; sourceTree = "<group>"; };
+		004518D81DDC064600882606 /* HLLHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLHomeViewController.m; sourceTree = "<group>"; };
+		004518DA1DDC066500882606 /* Config.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.pch; sourceTree = "<group>"; };
+		0667E7DA987203D072C2F6AA /* Pods-PDFViewAndDownload.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFViewAndDownload.release.xcconfig"; path = "Pods/Target Support Files/Pods-PDFViewAndDownload/Pods-PDFViewAndDownload.release.xcconfig"; sourceTree = "<group>"; };
+		13B3FB85D7A43EFABE0EDB99 /* Pods-PDFViewAndDownload.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFViewAndDownload.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PDFViewAndDownload/Pods-PDFViewAndDownload.debug.xcconfig"; sourceTree = "<group>"; };
+		1916837CA069ACC059A13F98 /* libPods-PDFViewAndDownload.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PDFViewAndDownload.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAD9532BD391480392612CEE /* libPods-PDFViewAndDownload.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +94,8 @@
 				004518A41DDC01C900882606 /* PDFViewAndDownloadTests */,
 				004518AF1DDC01CA00882606 /* PDFViewAndDownloadUITests */,
 				004518891DDC01C900882606 /* Products */,
+				2A66DE495F187A7E23878E46 /* Pods */,
+				C6705B401B25C9D2E2A3184D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +112,8 @@
 		0045188A1DDC01C900882606 /* PDFViewAndDownload */ = {
 			isa = PBXGroup;
 			children = (
-				0045188E1DDC01C900882606 /* AppDelegate.h */,
-				0045188F1DDC01C900882606 /* AppDelegate.m */,
-				004518911DDC01C900882606 /* ViewController.h */,
-				004518921DDC01C900882606 /* ViewController.m */,
-				004518941DDC01C900882606 /* Main.storyboard */,
-				004518971DDC01C900882606 /* Assets.xcassets */,
-				004518991DDC01C900882606 /* LaunchScreen.storyboard */,
-				0045189C1DDC01C900882606 /* Info.plist */,
+				004518BE1DDC04BF00882606 /* HLLClasses */,
+				004518C71DDC04BF00882606 /* HLLResources */,
 				0045188B1DDC01C900882606 /* Supporting Files */,
 			);
 			path = PDFViewAndDownload;
@@ -117,7 +122,12 @@
 		0045188B1DDC01C900882606 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				004518941DDC01C900882606 /* Main.storyboard */,
+				004518971DDC01C900882606 /* Assets.xcassets */,
+				004518991DDC01C900882606 /* LaunchScreen.storyboard */,
+				0045189C1DDC01C900882606 /* Info.plist */,
 				0045188C1DDC01C900882606 /* main.m */,
+				004518DA1DDC066500882606 /* Config.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +150,155 @@
 			path = PDFViewAndDownloadUITests;
 			sourceTree = "<group>";
 		};
+		004518BE1DDC04BF00882606 /* HLLClasses */ = {
+			isa = PBXGroup;
+			children = (
+				004518BF1DDC04BF00882606 /* HLLCategories */,
+				004518C01DDC04BF00882606 /* HLLItems */,
+				004518C61DDC04BF00882606 /* HLLLibs */,
+			);
+			path = HLLClasses;
+			sourceTree = "<group>";
+		};
+		004518BF1DDC04BF00882606 /* HLLCategories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HLLCategories;
+			sourceTree = "<group>";
+		};
+		004518C01DDC04BF00882606 /* HLLItems */ = {
+			isa = PBXGroup;
+			children = (
+				004518CD1DDC059200882606 /* HLLBasePart */,
+				004518C11DDC04BF00882606 /* HLLMain */,
+				004518D41DDC063100882606 /* HLLHomePart */,
+				004518C21DDC04BF00882606 /* HLLPDFDownload */,
+				004518C41DDC04BF00882606 /* HLPDFView */,
+			);
+			path = HLLItems;
+			sourceTree = "<group>";
+		};
+		004518C11DDC04BF00882606 /* HLLMain */ = {
+			isa = PBXGroup;
+			children = (
+				004518CA1DDC04FC00882606 /* HLLAppDelegate.h */,
+				004518CB1DDC04FC00882606 /* HLLAppDelegate.m */,
+			);
+			path = HLLMain;
+			sourceTree = "<group>";
+		};
+		004518C21DDC04BF00882606 /* HLLPDFDownload */ = {
+			isa = PBXGroup;
+			children = (
+				004518C31DDC04BF00882606 /* HLLController */,
+			);
+			path = HLLPDFDownload;
+			sourceTree = "<group>";
+		};
+		004518C31DDC04BF00882606 /* HLLController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HLLController;
+			sourceTree = "<group>";
+		};
+		004518C41DDC04BF00882606 /* HLPDFView */ = {
+			isa = PBXGroup;
+			children = (
+				004518C51DDC04BF00882606 /* HLLController */,
+			);
+			path = HLPDFView;
+			sourceTree = "<group>";
+		};
+		004518C51DDC04BF00882606 /* HLLController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HLLController;
+			sourceTree = "<group>";
+		};
+		004518C61DDC04BF00882606 /* HLLLibs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HLLLibs;
+			sourceTree = "<group>";
+		};
+		004518C71DDC04BF00882606 /* HLLResources */ = {
+			isa = PBXGroup;
+			children = (
+				004518C81DDC04BF00882606 /* HLLImages */,
+				004518C91DDC04BF00882606 /* HLLPDFs */,
+			);
+			path = HLLResources;
+			sourceTree = "<group>";
+		};
+		004518C81DDC04BF00882606 /* HLLImages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HLLImages;
+			sourceTree = "<group>";
+		};
+		004518C91DDC04BF00882606 /* HLLPDFs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HLLPDFs;
+			sourceTree = "<group>";
+		};
+		004518CD1DDC059200882606 /* HLLBasePart */ = {
+			isa = PBXGroup;
+			children = (
+				004518CE1DDC05A000882606 /* BaseViewController.h */,
+				004518CF1DDC05A000882606 /* BaseViewController.m */,
+			);
+			path = HLLBasePart;
+			sourceTree = "<group>";
+		};
+		004518D41DDC063100882606 /* HLLHomePart */ = {
+			isa = PBXGroup;
+			children = (
+				004518D51DDC063100882606 /* HLLController */,
+				004518D61DDC063100882606 /* HLLView */,
+			);
+			path = HLLHomePart;
+			sourceTree = "<group>";
+		};
+		004518D51DDC063100882606 /* HLLController */ = {
+			isa = PBXGroup;
+			children = (
+				004518D71DDC064600882606 /* HLLHomeViewController.h */,
+				004518D81DDC064600882606 /* HLLHomeViewController.m */,
+			);
+			path = HLLController;
+			sourceTree = "<group>";
+		};
+		004518D61DDC063100882606 /* HLLView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HLLView;
+			sourceTree = "<group>";
+		};
+		2A66DE495F187A7E23878E46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13B3FB85D7A43EFABE0EDB99 /* Pods-PDFViewAndDownload.debug.xcconfig */,
+				0667E7DA987203D072C2F6AA /* Pods-PDFViewAndDownload.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C6705B401B25C9D2E2A3184D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1916837CA069ACC059A13F98 /* libPods-PDFViewAndDownload.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +306,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 004518B51DDC01CA00882606 /* Build configuration list for PBXNativeTarget "PDFViewAndDownload" */;
 			buildPhases = (
+				CC8B4715E03227B68A9D08E6 /* [CP] Check Pods Manifest.lock */,
 				004518841DDC01C900882606 /* Sources */,
 				004518851DDC01C900882606 /* Frameworks */,
 				004518861DDC01C900882606 /* Resources */,
+				D29B755617ACFD852BEF2134 /* [CP] Embed Pods Frameworks */,
+				501FD5D0BCBEEBC629178DC8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +364,7 @@
 		004518801DDC01C900882606 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HLL;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Jeffrey hu";
 				TargetAttributes = {
@@ -271,14 +434,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		501FD5D0BCBEEBC629178DC8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PDFViewAndDownload/Pods-PDFViewAndDownload-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC8B4715E03227B68A9D08E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D29B755617ACFD852BEF2134 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PDFViewAndDownload/Pods-PDFViewAndDownload-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		004518841DDC01C900882606 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				004518931DDC01C900882606 /* ViewController.m in Sources */,
-				004518901DDC01C900882606 /* AppDelegate.m in Sources */,
 				0045188D1DDC01C900882606 /* main.m in Sources */,
+				004518D01DDC05A000882606 /* BaseViewController.m in Sources */,
+				004518D91DDC064600882606 /* HLLHomeViewController.m in Sources */,
+				004518CC1DDC04FC00882606 /* HLLAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,9 +637,11 @@
 		};
 		004518B61DDC01CA00882606 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13B3FB85D7A43EFABE0EDB99 /* Pods-PDFViewAndDownload.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KR9G98P8SN;
+				GCC_PREFIX_HEADER = PDFViewAndDownload/Config.pch;
 				INFOPLIST_FILE = PDFViewAndDownload/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.CareVoice.PDFViewAndDownload;
@@ -437,9 +651,11 @@
 		};
 		004518B71DDC01CA00882606 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0667E7DA987203D072C2F6AA /* Pods-PDFViewAndDownload.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KR9G98P8SN;
+				GCC_PREFIX_HEADER = PDFViewAndDownload/Config.pch;
 				INFOPLIST_FILE = PDFViewAndDownload/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.CareVoice.PDFViewAndDownload;
@@ -516,6 +732,7 @@
 				004518B71DDC01CA00882606 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		004518B81DDC01CA00882606 /* Build configuration list for PBXNativeTarget "PDFViewAndDownloadTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +741,7 @@
 				004518BA1DDC01CA00882606 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		004518BB1DDC01CA00882606 /* Build configuration list for PBXNativeTarget "PDFViewAndDownloadUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +750,7 @@
 				004518BD1DDC01CA00882606 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
