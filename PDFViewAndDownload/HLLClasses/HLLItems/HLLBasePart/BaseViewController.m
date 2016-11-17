@@ -18,6 +18,7 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = FlatMint;
 }
 
 - (void)didReceiveMemoryWarning {

@@ -31,6 +31,7 @@
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
         [self initView];
+        self.backgroundColor = FlatWhite;
     }
     return self;
 }

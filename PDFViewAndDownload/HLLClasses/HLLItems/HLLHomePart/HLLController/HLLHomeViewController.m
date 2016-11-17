@@ -27,6 +27,8 @@
     
     self.view.backgroundColor = [UIColor colorWithHue:0.6 saturation:0.7 brightness:0.8 alpha:1.0];
     
+    self.view.backgroundColor = FlatPowderBlue;
+    
     [self setupSubViews];
 }
 
@@ -49,7 +51,7 @@
 #pragma mark - Initialize data and view
 - (void)setupSubViews {
     self.navigationController.navigationItem.title = @"";
-    [self.navigationController.navigationBar setTranslucent:YES];
+//    [self.navigationController.navigationBar setTranslucent:YES];
     
     [self setupButtons];
 }

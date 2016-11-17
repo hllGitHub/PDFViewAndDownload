@@ -74,6 +74,7 @@
 		0047537F1DDC3CD400AF0FA1 /* ThumbsMainToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0047534C1DDC3CD400AF0FA1 /* ThumbsMainToolbar.m */; };
 		004753801DDC3CD400AF0FA1 /* ThumbsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0047534E1DDC3CD400AF0FA1 /* ThumbsViewController.m */; };
 		004753811DDC3CD400AF0FA1 /* UIXToolbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 004753501DDC3CD400AF0FA1 /* UIXToolbarView.m */; };
+		0093626F1DDD41D100413315 /* HLLTestColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0093626E1DDD41D100413315 /* HLLTestColorViewController.m */; };
 		AAD9532BD391480392612CEE /* libPods-PDFViewAndDownload.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1916837CA069ACC059A13F98 /* libPods-PDFViewAndDownload.a */; };
 /* End PBXBuildFile section */
 
@@ -196,6 +197,8 @@
 		0047534E1DDC3CD400AF0FA1 /* ThumbsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbsViewController.m; sourceTree = "<group>"; };
 		0047534F1DDC3CD400AF0FA1 /* UIXToolbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIXToolbarView.h; sourceTree = "<group>"; };
 		004753501DDC3CD400AF0FA1 /* UIXToolbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIXToolbarView.m; sourceTree = "<group>"; };
+		0093626D1DDD41D100413315 /* HLLTestColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLTestColorViewController.h; sourceTree = "<group>"; };
+		0093626E1DDD41D100413315 /* HLLTestColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLTestColorViewController.m; sourceTree = "<group>"; };
 		0667E7DA987203D072C2F6AA /* Pods-PDFViewAndDownload.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFViewAndDownload.release.xcconfig"; path = "Pods/Target Support Files/Pods-PDFViewAndDownload/Pods-PDFViewAndDownload.release.xcconfig"; sourceTree = "<group>"; };
 		13B3FB85D7A43EFABE0EDB99 /* Pods-PDFViewAndDownload.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFViewAndDownload.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PDFViewAndDownload/Pods-PDFViewAndDownload.debug.xcconfig"; sourceTree = "<group>"; };
 		1916837CA069ACC059A13F98 /* libPods-PDFViewAndDownload.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PDFViewAndDownload.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -425,6 +428,8 @@
 			children = (
 				004518D71DDC064600882606 /* HLLHomeViewController.h */,
 				004518D81DDC064600882606 /* HLLHomeViewController.m */,
+				0093626D1DDD41D100413315 /* HLLTestColorViewController.h */,
+				0093626E1DDD41D100413315 /* HLLTestColorViewController.m */,
 			);
 			path = HLLController;
 			sourceTree = "<group>";
@@ -787,6 +792,7 @@
 				0047537B1DDC3CD400AF0FA1 /* ReaderThumbRequest.m in Sources */,
 				0047537D1DDC3CD400AF0FA1 /* ReaderThumbView.m in Sources */,
 				0047537F1DDC3CD400AF0FA1 /* ThumbsMainToolbar.m in Sources */,
+				0093626F1DDD41D100413315 /* HLLTestColorViewController.m in Sources */,
 				004753741DDC3CD400AF0FA1 /* ReaderDocumentOutline.m in Sources */,
 				0047537E1DDC3CD400AF0FA1 /* ReaderViewController.m in Sources */,
 				0045188D1DDC01C900882606 /* main.m in Sources */,

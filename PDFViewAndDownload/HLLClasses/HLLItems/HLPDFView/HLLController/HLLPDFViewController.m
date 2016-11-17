@@ -58,7 +58,8 @@ static NSString *kCellId = @"kCellId";
 }
 
 - (void)setupSubViews {
-    self.navigationController.navigationItem.title = @"PDFView";
+    self.navigationItem.title = @"PDFView";
+    self.view.backgroundColor = FlatWhite;
     
     [self.view addSubview:self.tableView];
     [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -72,6 +73,7 @@ static NSString *kCellId = @"kCellId";
         _tableView = [[UITableView alloc]init];
         _tableView.delegate = self;
         _tableView.dataSource = self;
+        _tableView.backgroundColor = FlatWhite;
         [_tableView registerClass:[HLLMenuCell class] forCellReuseIdentifier:kCellId];
         _tableView.tableFooterView = [UIView new];
     }

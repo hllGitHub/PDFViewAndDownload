@@ -18,6 +18,7 @@
 
 #define MAS_SHORTHAND
 #import <Masonry.h>
+#import <Chameleon.h>
 
 #endif
 

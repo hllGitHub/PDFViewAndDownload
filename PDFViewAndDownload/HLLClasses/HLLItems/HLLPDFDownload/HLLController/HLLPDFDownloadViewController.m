@@ -43,7 +43,8 @@ static NSString *kCellId = @"kCellId";
 }
 
 - (void)setupSubViews {
-    self.navigationController.navigationItem.title = @"PDFDownload";
+    self.navigationItem.title = @"PDFDownload";
+    self.view.backgroundColor = FlatWhite;
     
     [self.view addSubview:self.tableView];
     [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {

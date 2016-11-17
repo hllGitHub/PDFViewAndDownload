@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>ChameleonFramework.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MBProgressHUD.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,7 +42,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>104D9B4B9D8737C49B29B301662D8CCF</key>
+		<key>19BB9863CDA9B3B96C2950F00D94877C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1BA768812D140672F5547321D31130A5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -62,7 +72,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D9D0AE1D080F945F7D15DC45092F2836</key>
+		<key>D57F6DD7CBDE11E457971075B0805982</key>
 		<dict>
 			<key>primary</key>
 			<true/>

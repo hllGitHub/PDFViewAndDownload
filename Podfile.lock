@@ -21,6 +21,9 @@ PODS:
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
   - BButton (4.0.2)
+  - ChameleonFramework (2.1.0):
+    - ChameleonFramework/Default (= 2.1.0)
+  - ChameleonFramework/Default (2.1.0)
   - Masonry (1.0.2)
   - MBProgressHUD (1.0.0)
   - SVProgressHUD (2.0.3)
@@ -28,6 +31,7 @@ PODS:
 DEPENDENCIES:
   - AFNetworking (~> 2.6.0)
   - BButton (~> 4.0.2)
+  - ChameleonFramework (~> 2.1.0)
   - Masonry (~> 1.0.2)
   - MBProgressHUD (~> 1.0.0)
   - SVProgressHUD (~> 2.0.3)
@@ -35,10 +39,11 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
   BButton: ab0f2ed3b998ae73c5188b57d270d81e4a1eeb27
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
 
-PODFILE CHECKSUM: 6ad30e562bb76b4f9a61857dad5857283bf18a1b
+PODFILE CHECKSUM: 0bc94b7da2d370bdb3ba8380663b4eb98a6f97a1
 
 COCOAPODS: 1.1.1
